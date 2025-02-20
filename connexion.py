@@ -49,7 +49,7 @@ def accueil():
             st.image("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHB2bjNueWh0aDJ0cGV0YXR5MmR5aW1sd3V2MGcxdTNpMWsxdWFqMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Rlwz4m0aHgXH13jyrE/giphy.gif",
                  width=400)
         elif selection == "💁‍♀️ Photos":
-            st.write("Ha! you've been trapped, here are some cat memes")
+            st.title("Ha! you've been trapped, here are some cat memes")
             col1, col2, col3 = st.columns(3, gap='large')
             with col1:
                 st.image("https://i.chzbgr.com/full/9380397568/h30A8D494/what-if",
